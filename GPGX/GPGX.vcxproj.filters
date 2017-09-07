@@ -75,6 +75,7 @@
     <ClCompile Include="src\libretro\libretro-common\memmap\memmap.c" />
     <ClCompile Include="src\libretro\libretro-common\streams\file_stream_transforms.c" />
     <ClCompile Include="src\libretro\libretro-common\streams\file_stream.c" />
+    <ClCompile Include="src\frontend\frontend_callbacks.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h" />

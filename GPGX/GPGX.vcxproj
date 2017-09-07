@@ -377,6 +377,7 @@
     <ClCompile Include="src\core\vdp_ctrl.c" />
     <ClCompile Include="src\core\vdp_render.c" />
     <ClCompile Include="src\core\z80\z80.c" />
+    <ClCompile Include="src\frontend\frontend_callbacks.c" />
     <ClCompile Include="src\libretro\libretro-common\memmap\memmap.c" />
     <ClCompile Include="src\libretro\libretro-common\streams\file_stream.c" />
     <ClCompile Include="src\libretro\libretro-common\streams\file_stream_transforms.c" />
