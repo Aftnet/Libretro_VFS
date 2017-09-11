@@ -18,13 +18,13 @@ RFILE *frontend_filestream_open(const char *path, unsigned mode)
 
 int frontend_filestream_close(RFILE *stream)
 {
-	auto path = stream->file->Path;
 	return 0;
 }
 EXTERN_C_END
 
 Class1::Class1()
 {
-	retro_set_file_open(frontend_filestream_open);
-	retro_set_file_close(frontend_filestream_close);
+	struct retro_vfs_interface iface;
+	iface.retro_vfs_file_open = frontend_filestream_open;
+	iface.retro_vfs_file_close = frontend_filestream_close;
 }
