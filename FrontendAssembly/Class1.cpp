@@ -5,19 +5,20 @@ using namespace FrontendAssembly;
 using namespace Platform;
 using namespace Windows::Storage;
 
-struct _libretro_iobuf
+struct RFILE
 {
 	StorageFile^ file;
 };
 
 EXTERN_C_START
-RFILE *frontend_filestream_open(const char *path, unsigned mode)
+RFILE *frontend_filestream_open(const char *path, retro_file_access access)
 {
 	return nullptr;
 }
 
 int frontend_filestream_close(RFILE *stream)
 {
+	stream->file->GetType();
 	return 0;
 }
 EXTERN_C_END

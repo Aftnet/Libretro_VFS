@@ -307,7 +307,7 @@
     <ClInclude Include="src\libretro\libretro-common\include\retro_inline.h" />
     <ClInclude Include="src\libretro\libretro-common\include\retro_miscellaneous.h" />
     <ClInclude Include="src\libretro\libretro-common\include\streams\file_stream.h" />
-    <ClInclude Include="src\libretro\libretro-common\include\streams\file_stream_fallbacks.h" />
+    <ClInclude Include="src\libretro\libretro-common\include\vfs\vfs_implementation.h" />
     <ClInclude Include="src\libretro\libretro-common\include\streams\file_stream_transforms.h" />
     <ClInclude Include="src\libretro\libretro.h" />
     <ClInclude Include="src\libretro\osd.h" />
@@ -378,7 +378,7 @@
     <ClCompile Include="src\core\vdp_ctrl.c" />
     <ClCompile Include="src\core\vdp_render.c" />
     <ClCompile Include="src\core\z80\z80.c" />
-    <ClCompile Include="src\libretro\libretro-common\streams\file_stream_fallbacks.c" />
+    <ClCompile Include="src\libretro\libretro-common\vfs\vfs_implementation.c" />
     <ClCompile Include="src\libretro\libretro-common\memmap\memmap.c" />
     <ClCompile Include="src\libretro\libretro-common\streams\file_stream.c" />
     <ClCompile Include="src\libretro\libretro-common\streams\file_stream_transforms.c" />

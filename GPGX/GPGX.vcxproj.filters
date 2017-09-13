@@ -75,7 +75,7 @@
     <ClCompile Include="src\libretro\libretro-common\memmap\memmap.c" />
     <ClCompile Include="src\libretro\libretro-common\streams\file_stream_transforms.c" />
     <ClCompile Include="src\libretro\libretro-common\streams\file_stream.c" />
-    <ClCompile Include="src\libretro\libretro-common\streams\file_stream_fallbacks.c" />
+    <ClCompile Include="src\libretro\libretro-common\vfs\vfs_implementation.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h" />
@@ -184,6 +184,6 @@
     <ClInclude Include="src\libretro\libretro-common\include\retro_common_api.h" />
     <ClInclude Include="src\libretro\libretro-common\include\retro_inline.h" />
     <ClInclude Include="src\libretro\libretro-common\include\retro_miscellaneous.h" />
-    <ClInclude Include="src\libretro\libretro-common\include\streams\file_stream_fallbacks.h" />
+    <ClInclude Include="src\libretro\libretro-common\include\vfs\vfs_implementation.h" />
   </ItemGroup>
 </Project>
